@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #cf11ff;
+}
+
+.square {
+    width: 75px;
+    background-color: white;
+    aspect-ratio: 1;
+}
+
+.bg_main {
+    background-color: #3abbe6;
+}
+
+.bg_number {
+    background-color: #be2ab2;
+}
+
+.bg_fizz {
+    background-color: #b44e1f;
+}
+
+.bg_buzz {
+    background-color: #f8b20e;
+}
+
+.bg_fizzbuzz {
+    background-color: #14e0cf;
+}
