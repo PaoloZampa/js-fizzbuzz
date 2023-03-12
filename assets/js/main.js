@@ -25,5 +25,13 @@ per i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz”.
 for (let i = 1; i <= 100; i++){
     const square = document.createElement("div");
     square.classList.add("square", "d-flex", "align-items-center", "justify-content-center", "m-3");
- 
+    // per i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz”
+    if (i % 3 === 0 && i % 5 === 0){
+        square.classList.add("bg_fizzbuzz");
+        square.innerHTML = ("FizzBuzz")
+    }
+
+    
+    divElement.append(square); 
+    console.log(i);
 }
